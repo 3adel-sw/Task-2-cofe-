@@ -1,0 +1,85 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #faf3e0;
+  color: #4a2c2a;
+  text-align: center;
+}
+.header {
+  background: url("/assets/imges/carousel-2.jpg") center/cover;
+  color: white;
+  padding: 100px 20px;
+}
+
+.navbar {
+  display: flex;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  transition: background-color 0.3sease;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  justify-content: space-between;
+  width: 98%;
+}
+
+.navbar li {
+  list-style: none;
+  margin-top: 33px;
+  margin-right: 35px;
+}
+.navbar li a {
+  color: #4a2c2a;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  transition: color 0.3sease;
+  cursor: pointer;
+  position: relative;
+  font-size: 18px;
+}
+
+.navbar h3 {
+  display: inline-block;
+  margin-left: 10px;
+  font-weight: bold;
+  font-size: 27px;
+}
+
+.about-section {
+  padding: 50px 20px;
+}
+.service-section {
+  background: #fff2e1;
+  padding: 50px 20px;
+}
+.btn-custom {
+  background-color: #8b4513;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+}
+.btn-custom:hover {
+  background-color: #5a2a0c;
+}
+@media (max-width: 768px) {
+  .about-text {
+    text-align: center;
+  }
+}
+@media (max-width: 576px) {
+  .header {
+    padding: 50px 10px;
+  }
+  .about-section,
+  .service-section {
+    padding: 30px 10px;
+  }
+}
+section {
+  background-image: url(/assets/imges/overlay-top.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  background-color: burlywood;
+}
